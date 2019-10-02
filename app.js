@@ -1,7 +1,4 @@
-let min = 1,
-  max = 10,
-  winningNum = setRandomNum(min, max),
-  guessLeft = 3;
+let min = 1, max = 10, winningNum = setRandomNum(min, max), guessLeft = 3;
 const game = document.querySelector('#game'),
   minNum = document.querySelector('.min-num'),
   maxNum = document.querySelector('.max-num'),
